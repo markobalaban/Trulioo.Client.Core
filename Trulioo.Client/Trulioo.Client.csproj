@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageId>Trulioo.Client.Core</PackageId>
+    <Authors>Marko Balaban</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Product>Trulioo.Client.Core</Product>
+    <Description>This is trulioo client moved to .net Core</Description>
+    <PackageTags>Trulioo Trulioo.client</PackageTags>
+    <RepositoryUrl>https://github.com/markobalaban/Trulioo.Client</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
